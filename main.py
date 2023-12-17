@@ -23,9 +23,9 @@ while(True):
                 year = 'года'
             else:
                 year = 'лет'
-            print('Это', vid, 'по кличке',
-                    key, 'Возраст питомца:', vozrast, year,
-                    'Имя владельца:', name)
+            print(f'Это {vid}, по кличке '
+                  f'{key}, Возраст питомца {vozrast} {year}, '
+                  f'Имя владельца {name}')
 
 #Homework 2
 my_dict = {}
